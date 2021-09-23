@@ -1,25 +1,25 @@
 const vegetables = 15.678;
 const meat = 123.965;
 const fish = 90.2345;
-console.log (vegetables, meat, fish);
-const maxPrice = Math.max (vegetables, meat, fish);
-console.log (maxPrice);
-const minPrice = Math.min (vegetables, meat, fish);
-console.log (minPrice);
+console.log(vegetables, meat, fish);
+const maxPrice = Math.max(vegetables, meat, fish);
+console.log(maxPrice);
+const minPrice = Math.min(vegetables, meat, fish);
+console.log(minPrice);
 const productSum = (vegetables + meat + fish);
-console.log (productSum);
+console.log(productSum);
 const integerVegetables = Math.trunc (vegetables);
-const integerMeat = Math.trunc (meat);
-const integerFish = Math.trunc (fish);
-console.log (integerVegetables, integerMeat, integerFish);
+const integerMeat = Math.trunc(meat);
+const integerFish = Math.trunc(fish);
+console.log(integerVegetables, integerMeat, integerFish);
 const integerSum = integerVegetables + integerMeat + integerFish;
-console.log (integerSum);
-const discount = (Math.random() * 101).toFixed(0);
-console.log (discount);
+console.log(integerSum);
+const discount = +(Math.random() * 101).toFixed(0);
+console.log(discount);
 const paymentFfterDiscount = (productSum - ((discount/100) * productSum)).toFixed(2);
-console.log (paymentFfterDiscount);
+console.log(paymentFfterDiscount);
 const income = (productSum / 2 - (productSum * (discount / 100)));
-console.log (income);
+console.log(income);
 const advanced = `Максимальна ціна: ${maxPrice};<br />
 Мінімальна ціна: ${minPrice};<br />
 Сума всіх товарів: ${productSum};<br />
