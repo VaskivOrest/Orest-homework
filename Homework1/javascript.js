@@ -32,7 +32,6 @@ console.log(paymentFfterDiscount);
 const income = (productSum / 2 - (productSum * (discount / 100)));
 console.log(income);
 
-
 const advanced = `Максимальна ціна: ${maxPrice};<br />
 Мінімальна ціна: ${minPrice};<br />
 Сума всіх товарів: ${productSum};<br />
