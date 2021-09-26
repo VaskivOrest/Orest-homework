@@ -1,7 +1,7 @@
 let firstNumber = '';
 do {
     firstNumber = prompt('Введіть перше число:','');
-} while (firstNumber === '' || firstNumber === NaN || firstNumber === null);
+} while (firstNumber === '' || isNaN (firstNumber) || firstNumber === null);
 let parsedFirst = parseInt(firstNumber);
 console.log (parsedFirst);
 
@@ -9,7 +9,7 @@ console.log (parsedFirst);
 let secondNumber = '';
 do {
     secondNumber = prompt('Введіть друге число:','');
-} while (secondNumber === '' || secondNumber === NaN || secondNumber === null);
+} while (secondNumber === '' || isNaN(secondNumber) || secondNumber === null);
 let parsedSecond = parseInt(secondNumber);
 console.log (parsedSecond);
 const skipEven = confirm('Чи потрібно пропускати парні числа?');
