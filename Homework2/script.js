@@ -12,7 +12,7 @@ do {
 } while (secondNumber === '' || isNaN (secondNumber) || secondNumber === null);
 let parsedSecond = parseInt(secondNumber);
 console.log (parsedSecond);
-const skipEven = confirm('Чи потрібно пропускати парні числа?');
+let skipEven = confirm('Чи потрібно пропускати парні числа?');
 
 
 let sum = 0;
