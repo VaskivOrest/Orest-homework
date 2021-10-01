@@ -56,10 +56,11 @@ const convertCurrency = (money) => {
         return 0;
     }
 }
-document.writeln(`Функція №1: ${getMaxDigit ()}`);<br />
-document.writeln(`Функція №1: ${getPow ()}`);<br />
-document.writeln(`Функція №1: ${fixedName ()}`);<br />
-document.writeln(`Функція №1: ${getBalanceAfterTax ()}`);<br />
-document.writeln(`Функція №1: ${getRandomNumber ()}`);<br />
-document.writeln(`Функція №1: ${countLetter ()}`);<br />
-document.writeln(`Функція №1: ${convertCurrency()}`);<br />
+document.writeln(`
+Функція №1: ${getMaxDigit (2586)}<br>
+Функція №1: ${getPow (2, 3)}<br>
+Функція №1: ${fixedName ('oRest')}<br>
+Функція №1: ${getBalanceAfterTax (1000)}<br>
+Функція №1: ${getRandomNumber (1, 10)}<br>
+Функція №1: ${countLetter ('b',' bblablabla')}<br>
+Функція №1: ${convertCurrency('25$')}</b>`); 
