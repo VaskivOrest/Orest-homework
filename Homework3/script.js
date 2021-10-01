@@ -58,9 +58,9 @@ const convertCurrency = (money) => {
 }
 document.writeln(`
 Функція №1: ${getMaxDigit (2586)}<br>
-Функція №1: ${getPow (2, 3)}<br>
-Функція №1: ${fixedName ('oRest')}<br>
-Функція №1: ${getBalanceAfterTax (1000)}<br>
-Функція №1: ${getRandomNumber (1, 10)}<br>
-Функція №1: ${countLetter ('b',' bblablabla')}<br>
-Функція №1: ${convertCurrency('25$')}</b>`); 
+Функція №2: ${getPow (2, 3)}<br>
+Функція №3: ${fixedName ('oRest')}<br>
+Функція №4: ${getBalanceAfterTax (1000)}<br>
+Функція №5: ${getRandomNumber (1, 10)}<br>
+Функція №6: ${countLetter ('b',' bblablabla')}<br>
+Функція №7: ${convertCurrency('25$')}</b>`); 
