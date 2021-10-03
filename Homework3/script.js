@@ -46,8 +46,7 @@ return result;
 const convertCurrency = (money) => {
     if (money.includes('$')){
         return (parseInt(money) * 25) + 'UAH';
-    }
-    if (money.toUpperCase().includes('UAH')) {
+    }if (money.toUpperCase().includes('UAH')) {
         return (parseInt(money) / 25) + '$';
     }else {
         alert ('only $ or UAN');
