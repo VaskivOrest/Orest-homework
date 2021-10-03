@@ -1,9 +1,8 @@
 //Функція #1
 const getMaxDigit = (numeric) => {
-    let arr = numeric.toString().split('').map(Number); {
+    const arr = numeric.toString().split('').map(Number); 
         return (Math.max (...arr));
     } 
-}
 
 //Функція #2
 const getPow = (number, pow) => {
@@ -34,7 +33,7 @@ const getRandomNumber = (min, max) => {
 //Функція #6
 const countLetter = (letter, word) => {
 let result = '';
-for(var i = 0; i < word.length; i++) {
+for(let i = 0; i < word.length; i++) {
     if (word[i].toLowerCase() === letter.toLowerCase()){
       result++;
     }
@@ -46,12 +45,11 @@ return result;
 //Функція #7
 const convertCurrency = (money) => {
     if (money.includes('$')){
-        return (parseInt(money) * 25) + 'UAN';
+        return (parseInt(money) * 25) + 'UAH';
     }
     if (money.toUpperCase().includes('UAH')) {
         return (parseInt(money) / 25) + '$';
-    }
-    else {
+    }else {
         alert ('only $ or UAN');
         return 0;
     }
