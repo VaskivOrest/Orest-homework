@@ -32,7 +32,7 @@ const students = [{
       .map((obj) => (obj.slice(0, 1).toUpperCase() + obj.slice(1).toLowerCase()).replace('_', ' '));
     return arrSubject;
   }
-  //console.log(getSubjects(students[2]));
+  console.log(getSubjects(students[2]));
 
 
   //2 
@@ -43,7 +43,7 @@ const students = [{
    return +sumMarks.toFixed(2)
   };
   
-  //console.log(getAverageMark(students[1]))
+  console.log(getAverageMark(students[1]))
   
 
   //3 
@@ -51,14 +51,14 @@ const students = [{
     return { Name: students.name, Course: students.course, averageMark: getAverageMark(students)
   }
 }
-  //console.log (getStudentInfo(students[1]))
+  console.log (getStudentInfo(students[1]))
 
 
   //4
   const getStudentsNames = (students) => {
     return students.map((students) => students.name).sort();
   }
-  //console.log(getStudentsNames(students))
+  console.log(getStudentsNames(students))
 
 
   //5
@@ -68,7 +68,7 @@ const students = [{
     ).name;
     return bestStudent;
   };
-  //console.log (getBestStudent(students))
+  console.log (getBestStudent(students))
 
 
   //6
@@ -79,4 +79,4 @@ const students = [{
 
   return result;
 }
-//console.log (calculateWordLetters('aacccaaaabbba'))
+console.log (calculateWordLetters('aacccaaaabbba'))
