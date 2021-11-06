@@ -1,7 +1,7 @@
-function* numberGenerator() {
-    let i = 2;
+function* idGenerator() {
+    let i = 1;
     while (true) {
-        yield Math.pow(i++, 2);
+        yield i++;
     }
 }
 const num = numberGenerator();
