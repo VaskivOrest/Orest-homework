@@ -4,12 +4,12 @@ function* idGenerator() {
         yield i++;
     }
 }
-const num = numberGenerator();
-console.log(num.next().value);
-console.log(num.next().value);
-console.log(num.next().value);
-console.log(num.next().value);
-console.log(num.next().value);
+const id = idGenerator();
+console.log(id.next().value);
+console.log(id.next().value);
+console.log(id.next().value);
+console.log(id.next().value);
+console.log(id.next().value);
 
 
 
